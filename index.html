@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kushi Raj Kanchu | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, I'm <span>Kushi Raj Kanchu</span></h1>
+      <p>AI/ML Enthusiast | Cloud Computing Club President</p>
+      <a href="#contact" class="cta">Contact Me</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate BTech student in CSE (AIML) with strong interests in machine learning, cloud computing, and software development. I'm currently the President of the Cloud Computing and DevOps Club at SR University.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>TensorFlow</li>
+        <li>Java</li>
+        <li>HTML/CSS/JavaScript</li>
+        <li>Azure</li>
+        <li>Power BI</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Fake News Detection</h3>
+          <p>ML pipeline using TF-IDF and Logistic Regression to classify news as real or fake.</p>
+          <a href="https://github.com/kushiraj/FakeNewsDetection" target="_blank">View Code</a>
+        </div>
+        <div class="project-card">
+          <h3>Medical Image Captioning</h3>
+          <p>Generates text descriptions for medical images using CNN and LSTM.</p>
+          <a href="https://github.com/kushiraj/MedicalImageCaptioning" target="_blank">View Code</a>
+        </div>
+        <div class="project-card">
+          <h3>Student Portal</h3>
+          <p>Simple front-end portal with login/signup built using HTML/CSS/JavaScript.</p>
+          <a href="https://github.com/kushiraj/StudentPortal" target="_blank">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Microsoft Certified: Azure AI Fundamentals</li>
+        <li>Fabric Analytics Engineer Associate</li>
+        <li>IBM Machine Learning Certificate</li>
+        <li>Data Structures – Saylor Academy</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>President</strong> – Cloud Computing & DevOps Club, SR University (2024–Present)</li>
+        <li><strong>Intern</strong> – Roman 3 Domination Evaluation Function (Research)</li>
+        <li><strong>Intern</strong> – Skill Vertex (Machine Learning)</li>
+        <li><strong>Project</strong> – App1 Azure AI Document Intelligence (Invoice Extraction)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:kushiraj@example.com">kushiraj@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/kushiraj" target="_blank">kushiraj</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/kushiraj" target="_blank">linkedin.com/in/kushiraj</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kushi Raj Kanchu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll behavior
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
